@@ -1,3 +1,7 @@
+const crypto = require("crypto");
+const crypto_orig_createHash = crypto.createHash;
+crypto.createHash = algorithm => crypto_orig_createHash(algorithm == "md4" ? "sha256" : algorithm);
+
 const child_process = require('child_process')
 const path = require('path')
 const CopyPlugin = require('copy-webpack-plugin')
