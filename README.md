@@ -37,6 +37,7 @@ Additionally, there's no obligation to do so, but if you'd like to support my wo
 
 
 ## How to build and run on your server.  
+Those commands are for Linux-based computer. 
 
 apt install npm  
 apt install vue  
