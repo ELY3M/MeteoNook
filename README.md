@@ -38,17 +38,19 @@ Additionally, there's no obligation to do so, but if you'd like to support my wo
 
 ## How to build and run on your server.  
 
-apt install npm
-apt install vue
-apt install rustup
-apt install nodejs
-npm install -g yarn
-
-npm install --force
-npm run build
-
-Your working website will be in dist folder. 
-copy dist folder to a place on your web server.  
+apt install npm  
+apt install vue  
+apt install rustup  
+apt install nodejs  
+npm install -g yarn  
+  
+npm install --force  
+npm run build  
+  
+Your working website will be in dist folder.  
+copy dist folder to a place on your web server.    
 you can rename dist to something memorable.  
+  
+  
 
 
